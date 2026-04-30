@@ -1,7 +1,7 @@
 
 # ModemSim
-该软件用于某冲击波井下仪模拟器，用于协助上位机（前端机/PC）软件开发人员调试冲击波仪器的网络通讯功能。
-该软件由MFC/VC2010编写，其TCP通讯部分参照了http://www.flounder.com/kb192570.htm
+该软件用于某冲击波井下仪模拟器，用于协助上位机（前端机/PC）软件开发人员调试冲击波仪器的网络通讯功能。  
+该软件的TCP通讯部分参照了http://www.flounder.com/kb192570.htm
 
 ## 项目概述 (Project Overview)
 配接冲击波井下仪器时，因公司内部不具备硬件联调的条件，特开发此Modem模拟器，摆脱对外部硬件资源的依赖，缩短配接时间。
@@ -29,5 +29,12 @@
 <p align="center">
   <img src="./images/ModemTest.png" width="80%" alt="ModemTest">
 </p>
+
+## 开发环境及技术栈
+- **集成开发环境 (IDE)：** Microsoft Visual Studio 2010 (VC2010)
+- **框架：** Microsoft Foundation Classes (MFC)
+- **编程语言：** C++
+- **SDK 版本：** Windows SDK v7.1 (VC2010 配套版本)
+- **平台工具集：** v100 (对应 VS2010 的工具集)
 
 
