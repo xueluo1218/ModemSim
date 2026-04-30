@@ -10,7 +10,7 @@
 ## 系统架构与网络模型 (System Architecture)
 本系统采用双通道非对称 TCP 通讯模型。为了完全仿真硬件行为，模拟器需同时扮演 TCP 客户端和 TCP 服务器的角色。
 ### 通讯通道定义
-! (./images/通讯通道.png)
+![通讯通道](./images/通讯通道.png)
 <p align="center">
   <img src="https://github.com/xueluo1218/ModemSim/blob/master/img/通讯通道.png" />
 </p>
