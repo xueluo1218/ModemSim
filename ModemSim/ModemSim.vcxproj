@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EBABD1A7-5575-43A8-9246-17ADDB209B32}</ProjectGuid>
+    <RootNamespace>ModemSim</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>D:\VsTemp\$(ProjectName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>D:\VsTemp\$(ProjectName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../CommonFiles;./TcpCommon;./TcpServer;./TcpClient;../../../../CommonControls/MFCGridcontrol2.27_DLL/GridCtrl_src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../CommonFiles;./TcpCommon;./TcpServer;./TcpClient;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="F:\Downloads\decoded-20251128070547.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\ModemSim.ico" />
+    <None Include="res\ModemSim.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CommonFiles\AutoFont.h" />
+    <ClInclude Include="..\..\CommonFiles\ByteConvert.h" />
+    <ClInclude Include="..\..\CommonFiles\globals.h" />
+    <ClInclude Include="..\..\CommonFiles\MyDirFileSearch.h" />
+    <ClInclude Include="..\..\CommonFiles\MyIniFile.h" />
+    <ClInclude Include="..\..\CommonFiles\rgbColor.h" />
+    <ClInclude Include="ModemProtocol.h" />
+    <ClInclude Include="ModemSim.h" />
+    <ClInclude Include="ModemSimDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TcpClient\ClientSocket.h" />
+    <ClInclude Include="TcpClient\ClientT.h" />
+    <ClInclude Include="TcpCommon\CONNECTS.H" />
+    <ClInclude Include="TcpCommon\Convert.h" />
+    <ClInclude Include="TcpCommon\ErrorString.h" />
+    <ClInclude Include="TcpCommon\Log.h" />
+    <ClInclude Include="TcpCommon\messages.h" />
+    <ClInclude Include="TcpCommon\port.h" />
+    <ClInclude Include="TcpCommon\SocketThread.h" />
+    <ClInclude Include="TcpCommon\TracePacket.h" />
+    <ClInclude Include="TcpServer\LISTENS.H" />
+    <ClInclude Include="TcpServer\ServerSocket.h" />
+    <ClInclude Include="TcpServer\ServerT.h" />
+    <ClInclude Include="WaveCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CommonFiles\AutoFont.cpp" />
+    <ClCompile Include="..\..\CommonFiles\globals.cpp" />
+    <ClCompile Include="..\..\CommonFiles\MyDirFileSearch.cpp" />
+    <ClCompile Include="..\..\CommonFiles\MyIniFile.cpp" />
+    <ClCompile Include="ModemProtocol.cpp" />
+    <ClCompile Include="ModemSim.cpp" />
+    <ClCompile Include="ModemSimDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TcpClient\ClientSocket.cpp" />
+    <ClCompile Include="TcpClient\ClientT.cpp" />
+    <ClCompile Include="TcpCommon\CONNECTS.CPP" />
+    <ClCompile Include="TcpCommon\Convert.cpp" />
+    <ClCompile Include="TcpCommon\ErrorString.cpp" />
+    <ClCompile Include="TcpCommon\Log.cpp" />
+    <ClCompile Include="TcpCommon\SocketThread.cpp" />
+    <ClCompile Include="TcpCommon\TracePacket.cpp" />
+    <ClCompile Include="TcpServer\LISTENS.CPP" />
+    <ClCompile Include="TcpServer\ServerSocket.cpp" />
+    <ClCompile Include="TcpServer\ServerT.cpp" />
+    <ClCompile Include="WaveCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModemSim.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ModemSim.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

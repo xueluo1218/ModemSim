@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModemSim", "ModemSim\ModemSim.vcxproj", "{EBABD1A7-5575-43A8-9246-17ADDB209B32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iWasModemTest", "..\iWasModemTest\iWasModemTest\iWasModem.vcxproj", "{8189DA11-33C1-4900-ACB6-D2E4A02E6338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBABD1A7-5575-43A8-9246-17ADDB209B32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBABD1A7-5575-43A8-9246-17ADDB209B32}.Debug|Win32.Build.0 = Debug|Win32
+		{EBABD1A7-5575-43A8-9246-17ADDB209B32}.Release|Win32.ActiveCfg = Release|Win32
+		{EBABD1A7-5575-43A8-9246-17ADDB209B32}.Release|Win32.Build.0 = Release|Win32
+		{8189DA11-33C1-4900-ACB6-D2E4A02E6338}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8189DA11-33C1-4900-ACB6-D2E4A02E6338}.Debug|Win32.Build.0 = Debug|Win32
+		{8189DA11-33C1-4900-ACB6-D2E4A02E6338}.Release|Win32.ActiveCfg = Release|Win32
+		{8189DA11-33C1-4900-ACB6-D2E4A02E6338}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

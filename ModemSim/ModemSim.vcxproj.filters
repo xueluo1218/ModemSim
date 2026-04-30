@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CommonControls">
+      <UniqueIdentifier>{4ddaef55-2fd2-4322-bceb-6d2f436fef05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TcpCommon">
+      <UniqueIdentifier>{ff51bcf2-9ccd-4b98-827d-88224ea7aabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TcpServer">
+      <UniqueIdentifier>{c4929b44-0c43-4387-b85f-1a0796b3df93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TcpClient">
+      <UniqueIdentifier>{a74ecad4-6804-4c2c-81e9-a6e5e324de6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ModemSim.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ModemSim.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="F:\Downloads\decoded-20251128070547.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModemSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModemSimDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\AutoFont.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\ByteConvert.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\globals.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\MyDirFileSearch.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\MyIniFile.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonFiles\rgbColor.h">
+      <Filter>CommonControls</Filter>
+    </ClInclude>
+    <ClInclude Include="ModemProtocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\CONNECTS.H">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\Convert.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\ErrorString.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\Log.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\messages.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\port.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\SocketThread.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpCommon\TracePacket.h">
+      <Filter>TcpCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer\LISTENS.H">
+      <Filter>TcpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer\ServerSocket.h">
+      <Filter>TcpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer\ServerT.h">
+      <Filter>TcpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient\ClientSocket.h">
+      <Filter>TcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient\ClientT.h">
+      <Filter>TcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModemSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModemSimDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonFiles\AutoFont.cpp">
+      <Filter>CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonFiles\globals.cpp">
+      <Filter>CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonFiles\MyDirFileSearch.cpp">
+      <Filter>CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonFiles\MyIniFile.cpp">
+      <Filter>CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="ModemProtocol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\CONNECTS.CPP">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\Convert.cpp">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\ErrorString.cpp">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\Log.cpp">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\SocketThread.cpp">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpCommon\TracePacket.cpp">
+      <Filter>TcpCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer\LISTENS.CPP">
+      <Filter>TcpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer\ServerSocket.cpp">
+      <Filter>TcpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer\ServerT.cpp">
+      <Filter>TcpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient\ClientSocket.cpp">
+      <Filter>TcpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient\ClientT.cpp">
+      <Filter>TcpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModemSim.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
