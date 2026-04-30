@@ -10,17 +10,24 @@
 ## 系统架构与网络模型 (System Architecture)
 本系统采用双通道非对称 TCP 通讯模型。为了完全仿真硬件行为，模拟器需同时扮演 TCP 客户端和 TCP 服务器的角色。
 ### 通讯通道定义
+<p align="center">
 <img src="./images/通讯通道.png" width="60%" alt="通讯通道">
+</p>
 
 ### 数据流向图
-<img src="./images/数据流向.png" width="60%" alt="数据流向">
+<p align="center">
+  <img src="./images/数据流向.png" width="60%" alt="数据流向">
+</p>
 
 ## 软件界面 (UI)
 ### ModemSim 主界面
-<img src="./images/ModemSim.png" width="80%" alt="ModemSim>
+<p align="center">
+  <img src="./images/ModemSim.png" width="80%" alt="ModemSim">
+</p>
 
 ### PC端测试程序
-<img src="./images/ModemTest.png" width="80%" alt="ModemTest">
-
+<p align="center">
+  <img src="./images/ModemTest.png" width="80%" alt="ModemTest">
+</p>
 
 
