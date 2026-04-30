@@ -11,29 +11,16 @@
 本系统采用双通道非对称 TCP 通讯模型。为了完全仿真硬件行为，模拟器需同时扮演 TCP 客户端和 TCP 服务器的角色。
 ### 通讯通道定义
 ![通讯通道](./images/通讯通道.png)
-<p align="center">
-  <img src="https://github.com/xueluo1218/ModemSim/blob/master/img/通讯通道.png" />
-</p>
 
 ### 数据流向图
- ! ./images/数据流向.png
-<p align="center">
-  <img src="https://github.com/xueluo1218/ModemSim/blob/master/img/数据流向.png" />
-</p>
-
+![数据流向](./images/数据流向.png)
 
 ## 软件界面 (UI)
-### CModemSimDlg (主界面)
-! ./images/ModemSim.png 
-<p align="center">
-  <img src="https://github.com/xueluo1218/ModemSim/blob/master/img/ModemSim.png" />
-</p>
-
+### ModemSim 主界面
+![ModemSim](./images/ModemSim.png) 
 
 ### PC端测试程序
-! ./images/ModemTest.png
-<p align="center">
-  <img src="https://github.com/xueluo1218/ModemSim/blob/master/img/ModemTest.png" />
-</p>
+![ModemTest](./images/ModemTest.png)
+
 
 
